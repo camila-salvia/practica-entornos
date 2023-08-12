@@ -5,17 +5,14 @@ y cuál es la última?
 
 HTML es un lenguaje de marcado para la elaboración de páginas web. Un 
 lenguaje de marcado hace referencia a aquellos lenguajes que emplean 
-etiquetas. Estas etiquetas ya están predefinidas dentro del lenguaje 
-respectivo y contienen la información que “ayudan” a leer el texto. Es 
-decir, tanto para los desarrolladores como para las plataformas que pueden 
-leer este lenguaje, las etiquetas contienen información adicional de la 
-estructura del texto.
+etiquetas que ya están predefinidas dentro del lenguaje y contienen la
+información que “ayuda” a leer el texto. Es decir, tanto para los
+desarrolladores como para las plataformas que pueden leer este lenguaje,
+las etiquetas contienen información adicional de la estructura del texto.
 HTML es un estándar a cargo del World Wide Web Consortium (W3C) o Consorcio 
-WWW, organización dedicada a la estandarización de casi todas las 
-tecnologías ligadas a la web, sobre todo en lo referente a su escritura e 
-interpretación. Se considera el lenguaje web más importante siendo su 
+WWW. Se considera el lenguaje web más importante siendo su 
 invención crucial en la aparición, desarrollo y expansión de la World Wide 
-Web (W WW). Es el estándar que se ha impuesto en la visualización de 
+Web (WWW). Es el estándar que se ha impuesto en la visualización de 
 páginas web y es el que todos los navegadores actuales han adoptado.
 El origen de HTML se remonta a 1980, cuando el físico Tim Berners-Lee, 
 trabajador del CERN (Organización Europea para la Investigación Nuclear) 
@@ -51,17 +48,13 @@ importantes mejoras en la confección y uso de formularios, son además,
 algunas de sus otras aportaciones. 
 Se publica en diciembre de 1999 el penúltimo “estándar oficial” de HTML 
 conocido como la versión 4.01, revisión y actualización de la versión 
-anterior que no llega a aportar novedades significativas. Desde la 
-publicación de HTML 4.01, la actividad de estandarización de HTML se detuvo 
-por parte del W3C, que se centró en el desarrollo de un nuevo estándar, el 
-XHTML. Debido a ello, y en el año 2004, las empresas Apple, la Fundación 
-Mozilla y Opera, mostraron su preocupación por la falta de interés del W3C 
-en el estándar HTML y decidieron crear una nueva asociación llamada WHATWG, 
-en las que las tres entidades estaban representadas. El acrónimo se 
-corresponde a Web Hypertext Application Technology Working Group. La 
-actividad del WHATWG se centró desde su inicio en el desarrollo del 
-estándar HTML 5.0, y cuyo primer borrador oficial se publicó en enero de 
-2008. Debido a la fuerza de las empresas que forman el grupo WHATWG y a la 
+anterior que no llega a aportar novedades significativas.En el año 2004,
+las empresas Apple, la Fundación Mozilla y Opera, mostraron su preocupación
+por la falta de interés del W3C en el estándar HTML y decidieron crear una
+nueva asociación llamada WHATWG (Web Hypertext Application Technology Working
+Group). Se centró desde su inicio en el desarrollo del 
+estándar HTML 5.0, y cuyo primer borrador oficial se publicó en enero de 2008.
+Debido a la fuerza de las empresas que forman el grupo WHATWG y a la 
 publicación de un primer borrador de la versión 5.0, en marzo de 2007, el 
 Consorcio W3C decidió retomar la actividad estandarizadora de HTML, 
 publicándose hace poco tiempo este estándar. 
@@ -69,6 +62,7 @@ publicándose hace poco tiempo este estándar.
 
 2. ¿Cuáles son los principios básicos que el W3C recomienda seguir para 
 la creación de documentos con HTML?
+
 Los principios básicos de la W3C son:
 1. Un esquema uniforme de nombres para localizar recursos en la
 Web (p.ej., URIs).
@@ -79,6 +73,7 @@ HTTP).
 
 3. En las Especificaciones de HTML, ¿cuándo un elemento o atributo se 
 considera desaprobado? ¿y obsoleto?
+
 A lo largo del tiempo, algunos elementos y atributos pueden quedar 
 obsoletos o desaprobados en favor de enfoques más modernos y mejores 
 prácticas. Los cambios suelen ser impulsados por la necesidad de mejorar 
@@ -92,6 +87,7 @@ marcan como "desaprobados".
 
 4. Qué es el DTD y cuáles son los posibles DTDs contemplados en la 
 especificación de HTML 4.01?
+
 DTD (Document Type Definition) es una especificación formal que define la 
 estructura y la gramática válidas para un tipo de documento XML o SGML 
 (Standard Generalized Markup Language). En el caso de HTML, el DTD se 
@@ -100,16 +96,16 @@ que las páginas HTML cumplan con las reglas y estándares establecidos.
 En HTML 4.01, se definen tres DTDs diferentes, que especifican diferentes 
 niveles de transicionalidad y funcionalidad. Los tres DTDs en HTML 4.01 
 son los siguientes:
-Strict (Estricto): El DTD estricto establece un conjunto completo de reglas 
+.Strict (Estricto): El DTD estricto establece un conjunto completo de reglas 
 y restricciones que definen un documento HTML con la mayor conformidad 
 posible. Limita el uso de elementos y atributos a los más estrictamente 
 definidos y prohíbe el uso de elementos y atributos obsoletos o no 
 recomendados.
-Transitional (Transicional): El DTD transicional es más permisivo que el 
+.Transitional (Transicional): El DTD transicional es más permisivo que el 
 estricto y permite el uso de elementos y atributos obsoletos y en desuso 
 para garantizar la compatibilidad con páginas web antiguas que pueden no 
 cumplir con las reglas más estrictas.
-Frameset: El DTD frameset se utiliza para documentos HTML que utilizan 
+.Frameset: El DTD frameset se utiliza para documentos HTML que utilizan 
 frames (marcos) para dividir la página en varias áreas independientes. Los 
 frames han sido obsoletos en versiones más recientes de HTML (como en HTML5), 
 pero aún se encuentran en algunas páginas web antiguas.
@@ -123,6 +119,7 @@ la URL por "Strict" o "Frameset", respectivamente.
 
 
 5. Qué son los metadatos y cómo se especifican en HTML?
+
 Los metadatos son, en su definición más simple, datos que describen otros
 datos. 
 Los metadatos en HTML son información adicional que se proporciona sobre 
