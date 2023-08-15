@@ -79,7 +79,8 @@ dice "Click aqui", ya que ambos textos estan encerrados en " <a> </a>" diferente
      </ul>
 <!-- 
      Esto es una lista desordenada, muestra los elementos en forma de lista
-     sin numerar.
+     sin numerar ya que está dentro de la etiqueta <ul></ul>
+     El contenido dentro de la etiqueta <li></li> indica un elemento de la lista.
 -->
      <ol>
           <li>xxx</li>
@@ -88,7 +89,7 @@ dice "Click aqui", ya que ambos textos estan encerrados en " <a> </a>" diferente
      </ol>
 <!-- 
      Esto es una lista ordenada, muestra los elementos en forma de lista
-     sin numerar.
+     numerada, ya que está dentro de la etiqueta <ol></ol>.
 -->
      <ol>
           <li>xxx</li>
@@ -99,9 +100,195 @@ dice "Click aqui", ya que ambos textos estan encerrados en " <a> </a>" diferente
      <ol>
           <li value="3">zzz</li>
      </ol>
+<!-- 
+     Estas son tres listas ordenadas.
+     En la segunda y tercera lista se está forzando a que el primer item 
+     valga 2 y 3 respectivamente con el atributo value="" ya que, al ser listas
+     distintas, estos valdrían siempre 1. 
+-->
 
      <blockquote>
-          <p>1. xxx<br />
-               2. yyy<br />
-               3. zzz</p>
+          <p>  1. xxx<br/>
+               2. yyy<br/>
+               3. zzz
+          </p>
      </blockquote>
+
+ <!-- 
+    Esto no es una lista sino una cita de un bloque. Los tres items se encuentran en
+    el mismo párrafo separados por un salto de línea <br/>
+
+
+3d
+-->
+<table border="1" width="300">
+     <tr>
+          <th>Columna 1</th>
+          <th>Columna 2</th>
+     </tr>
+     <tr>
+          <td>Celda 1</td>
+          <td>Celda 2</td>
+     </tr>
+     <tr>
+          <td>Celda 3</td>
+          <td>Celda 4</td>
+     </tr>
+</table>
+<!--
+ Comparando la tabla 1 y la tabla 2, ambas tienen el mismo valor de bordes y ancho.
+ Ambos tienen el mismo contenido en las celdas, encerradas entre las etiquetas <td></td>.
+ Si bien a simple vista parecieran ser iguales, la diferencia está en que en la segunda 
+ tabla se fuerza el centrado y la letra negrita, mientras que en la primer tabla eso está
+ por defecto. 
+-->
+
+<table border="1" width="300">
+     <tr>
+          <td>
+               <div align="center"><strong>Colum
+                         na1</strong></div>
+          </td>
+          <td>
+               <div align="center"><strong>Columna
+                         2</strong></div>
+          </td>
+     </tr>
+     <tr>
+          <td>Celda 1</td>
+          <td>Celda 2</td>
+     </tr>
+     <tr>
+          <td>Celda 3</td>
+          <td>Celda 4</td>
+     </tr>
+</table>
+
+<!--
+3e
+-->
+<table width="200">
+     <caption>
+          Título
+     </caption>
+          <tr>
+               <td bgcolor="#dddddd">&nbsp;</td>
+               <td bgcolor="#dddddd">&nbsp;</td>
+               <td bgcolor="#dddddd">&nbsp;</td>
+          </tr>
+          <tr>
+               <td bgcolor="#dddddd">&nbsp;</td>
+               <td bgcolor="#dddddd">
+                    &nbsp;</td>
+               <td bgcolor="#dddddd">&nbsp;</td>
+          </tr>
+</table>
+
+
+<table width="200">
+     <tr>
+          <td colspan="3">
+               <div align="center">Título</div>
+          </td>
+     </tr>
+     <tr>
+               <td bgcolor="#dddddd">&nbsp;</td>
+               <td bgcolor="#dddddd">&nbsp;</td>
+               <td bgcolor="#dddddd">&nbsp;</td>
+     </tr>
+     <tr>
+               <td bgcolor="#dddddd">&nbsp;</td>
+               <td bgcolor="#dddddd">&nbsp;</td>
+               <td bgcolor="#dddddd">&nbsp;</td>
+     </tr>
+</table>
+
+<!--
+     Lo diferente en ambas tablas es la parte del "Título". En la primera se 
+     utiliza la etiqueta <caption></caption> para definir el título, y en la segunda
+     se seleccionan todas las celdas de la primer fila, se fusionan y ahí se escribe
+     el título. Tambien se centra.
+
+3-f
+-->
+
+<table width="200">
+     <tr>
+          <td colspan="3">
+               <div align="center">Título</div>
+          </td>
+     </tr>
+     <tr>
+          <td rowspan="2" bgcolor="#dddddd">&nbsp;</td>
+          <td bgcolor="#dddddd">&nbsp;</td>
+          <td bgcolor="#dddddd">&nbsp;</td>
+     </tr>
+     <tr>
+          <td bgcolor="#dddddd">&nbsp;</td>
+          <td bgcolor="#dddddd">&nbsp;</td>
+     </tr>
+</table>
+
+
+<table width="200">
+     <tr>
+          <td colspan="3">
+               <div align="center">Título</div>
+          </td>
+     </tr>
+     <tr>
+          <td colspan="2" bgcolor="#dddddd">&nbsp;</td>
+          <td bgcolor="#dddddd">&nbsp;</td>
+     </tr>
+     <tr>
+          <td bgcolor="#dddddd">&nbsp;</td>
+          <td bgcolor="#dddddd">&nbsp;</td>
+          <td bgcolor="#dddddd">&nbsp;</td>
+     </tr>
+</table>
+
+<!--
+     La diferencia entre ambas tablas es que en la primera, se utiliza el atributo
+     "rowspan" para fusionar dos celdas de dos filas, y el atributo "colspan" se utiliza
+     en la segunda tabla para fusionar 2 celdas de dos columnas distintas. 
+
+3g-
+-->
+
+<table width="200" border="1">
+     <tr>
+          <td colspan="3">
+               <div align="center">Título</div>
+          </td>
+     </tr>
+     <tr>
+          <td colspan="2" rowspan="2">&nbsp;</td>
+          <td>&nbsp;</td>
+     </tr>
+     <tr>
+          <td width="50%">&nbsp;</td>
+     </tr>
+</table>
+
+
+
+<table width="200" border="1" cellpadding="0" cellspacing="0">
+     <tr>
+          <td colspan="2">
+               <div align="center">Título</div>
+          </td>
+     </tr>
+     <tr>
+          <td rowspan="2">&nbsp;</td>
+          <td>&nbsp;</td>
+     </tr>
+     <tr>
+          <td width="50%">&nbsp;</td>
+     </tr>
+</table>
+
+<!--
+     La primera tabla tiene atributos width y border definidos. El cellpadding y el cellspadding
+     son por defecto.
+     La segunda tabla tiene todos esos atributos definidos.
+-->
