@@ -141,12 +141,10 @@ dice "Click aqui", ya que ambos textos estan encerrados en " <a> </a>" diferente
 <table border="1" width="300">
      <tr>
           <td>
-               <div align="center"><strong>Colum
-                         na1</strong></div>
+               <div align="center"><strong>Columna1</strong></div>
           </td>
           <td>
-               <div align="center"><strong>Columna
-                         2</strong></div>
+               <div align="center"><strong>Columna2</strong></div>
           </td>
      </tr>
      <tr>
@@ -181,8 +179,7 @@ dice "Click aqui", ya que ambos textos estan encerrados en " <a> </a>" diferente
           </tr>
           <tr>
                <td bgcolor="#dddddd">&nbsp;</td>
-               <td bgcolor="#dddddd">
-                    &nbsp;</td>
+               <td bgcolor="#dddddd">&nbsp;</td>
                <td bgcolor="#dddddd">&nbsp;</td>
           </tr>
 </table>
@@ -233,7 +230,7 @@ dice "Click aqui", ya que ambos textos estan encerrados en " <a> </a>" diferente
      </tr>
 </table>
 
-<!--FALTA ESTE-->
+
 
 <table width="200">
      <tr>
@@ -251,6 +248,7 @@ dice "Click aqui", ya que ambos textos estan encerrados en " <a> </a>" diferente
           <td bgcolor="#dddddd">&nbsp;</td>
      </tr>
 </table>
+
 
 <!--
      La diferencia entre ambas tablas es que en la primera, se utiliza el atributo
@@ -275,7 +273,7 @@ dice "Click aqui", ya que ambos textos estan encerrados en " <a> </a>" diferente
      </tr>
 </table>
 
-<!--FALTA ESTE-->
+
 
 <table width="200" border="1" cellpadding="0" cellspacing="0">
      <tr>
@@ -292,8 +290,100 @@ dice "Click aqui", ya que ambos textos estan encerrados en " <a> </a>" diferente
      </tr>
 </table>
 
+<!--REVISAR-->
 <!--
      La primera tabla tiene atributos width y border definidos. El cellpadding y el cellspadding
      son por defecto.
      La segunda tabla tiene todos esos atributos definidos.
+
+3-h
 -->
+<form id="form1" name="form1" action="procesar.php" method="post" target="_blank">
+     <fieldset>
+          <legend>LOGIN</legend>
+          Usuario: <input type="text" id="usu1" name="usu1" value="xxx" /><br />
+          Clave: <input type="password" id="clave1" name="clave1" value="xxx" />
+     </fieldset>
+     <input type="submit" id="boton1" name="boton1" value="Enviar" />
+</form>
+
+
+<form id="form2" name="form2" action="" method="get" target="_blank">
+     LOGIN<br />
+     <label>Usuario: <input type="text" id="usu2" name="usu2" /></label><br />
+     <label>Clave: <input type="text" id="clave2" name="clave2" /></label><br />
+     <input type="submit" id="boton2" name="boton2" value="Enviar" />
+</form>
+
+
+<form id="form3" name="form3" action="mailto:xx@xx.com” enctype=text/plain method=" p ost" target="_blank">
+     <fieldset>
+          <legend>LOGIN</legend>
+          Usuario: <input type="text" id="usu3" name="usu3" /><br />
+          Clave: <input type="password" id="clave3" name="clave3" />
+     </fieldset>
+     <input type="reset" id="boton3" name="boton3" value="Enviar" />
+</form>
+
+
+<!--
+   
+3-i
+-->
+<label>Botón 1
+     <button type="button" name="boton1" id="boton1">
+          <img src="logo.jpg" alt="Botón con imagen " width="30" height="20" /><br />
+          <b>CLICK AQUÍ</b>
+     </button>
+</label>
+
+
+<label>
+     Botón 2
+     <input type="button" name="boton2" id="boton2" value="CLICK AQUÍ" />
+</label>
+
+
+<!--
+
+3-j     
+-->
+<p>
+     <label><input type="radio" name="opcion" id="X" value="X" />X</label>
+     <br />
+     <label><input type="radio" name="opcion" id="Y" value="Y" />Y</label>
+</p>
+
+
+<p>
+     <label><input type="radio" name="opcion1" id="X" value="X" />X</label><br />
+     <label><input type="radio" name="opcion2" id="Y" value="Y" />Y</label>
+</p>
+
+
+<!--
+
+3-k     
+-->
+<select name="lista">
+     <optgroup label="Caso 1">
+          <option>Mayo</option>
+          <option>Junio</option>
+     </optgroup>
+     <optgroup label="Caso 2">
+          <option>Mayo</option>
+          <option>Junio</option>
+     </optgroup>
+</select>
+
+
+<select name="lista[]" multiple="multiple">
+     <optgroup label=" Caso 1">
+          <option>Mayo</option>
+          <option>Junio</option>
+     </optgroup>
+     <optgroup label=" Caso 2">
+          <option>Mayo</option>
+          <option>Junio</option>
+     </optgroup>
+</select>
