@@ -1,0 +1,63 @@
+
+Ejercitación 1 - Responder el siguiente cuestionario
+1. ¿Ventajas de HTML5?
+-----------------------------------------------------
+HTML5 trajo consigo una serie de ventajas significativas en comparación 
+con sus predecesores. A continuación, se presentan algunas de las ventajas 
+clave de HTML5:
+
+1. Mejora de semántica: HTML5 introduce nuevas etiquetas semánticas que 
+describen de manera más precisa la estructura del contenido, lo que facilita 
+a los motores de búsqueda y a los desarrolladores comprender el propósito 
+de cada sección del documento. Ejemplos de estas etiquetas son <header>, 
+<nav>, <section>, <article>, <footer>.
+
+2. Soporte multimedia nativo: HTML5 incorpora elementos multimedia como 
+<audio> y <video> para incorporar contenido de audio y video directamente 
+en las páginas sin necesidad de complementos como Flash. Esto mejoró la 
+accesibilidad y la experiencia del usuario.
+
+3. Canvas: HTML5 introduce el elemento <canvas>, que permite crear gráficos 
+y animaciones en 2D directamente en el navegador utilizando JavaScript. 
+Esto ha impulsado el desarrollo de juegos y aplicaciones interactivas en línea.
+
+4. APIs de geolocalización y navegación: HTML5 ofrece APIs que permiten a las
+aplicaciones web acceder a la ubicación geográfica del usuario, lo que es 
+útil para servicios basados en la ubicación y mapas.
+
+5. Formularios mejorados: HTML5 introduce nuevos tipos de entrada de formulario, 
+como <input type="email">, <input type="url">, <input type="date">, que simplifican 
+la entrada de datos y validación en el cliente.
+
+6. Almacenamiento local: HTML5 ofrece opciones de almacenamiento local como 
+localStorage y sessionStorage, que permiten a las aplicaciones web almacenar 
+datos en el navegador del usuario, lo que mejora el rendimiento y la experiencia 
+de usuario sin depender completamente de los servidores.
+
+7. Compatibilidad con dispositivos móviles: HTML5 se diseñó con enfoque en la 
+compatibilidad con dispositivos móviles, lo que facilita el diseño y desarrollo 
+de aplicaciones y sitios web responsivos.
+
+2. ¿Por qué utilizarlo?
+--------------------------------------------
+
+3. Nombre ventajas
+
+---------------------------------
+Ejercitación 2
+2.A) ¿Qué formatos soporta ?
+2.B) Crear un elemento audio
+Ejemplo de src: https://html5tutorial.info/media/vincent.mp3
+
+---------------------------------
+Ejercitación 3
+3.A) ¿Qué formatos soporta ?
+3.B) Crear un elemento video
+Ejemplo de src: https://www.w3schools.com/html/mov_bbb.mp4/ogg
+Ejercitación 4
+4.A) Crear un formulario con un campo requerido
+4.B) Crear un formulario con un campo de tipo email y validar que funcione
+4.C) Crear un formulario con un campo de tipo fecha y validar que funcione
+4.D) Crear un formulario con un campo de tipo color y validar que funcione
+4.E) Crear un formulario con un campo de tipo number y validar que funcione. Además configurar
+valores mínimos y máximos permitidos.
