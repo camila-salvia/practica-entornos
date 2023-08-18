@@ -1,0 +1,162 @@
+EJERCITACIÓN 1
+--------------------------------------------------------------------------
+1. Qué es HTML, cuando fue creado, cuáles fueron las distintas versiones
+y cuál es la última?
+
+HTML es un lenguaje de marcado para la elaboración de páginas web. Un 
+lenguaje de marcado hace referencia a aquellos lenguajes que emplean 
+etiquetas que ya están predefinidas dentro del lenguaje y contienen la
+información que “ayuda” a leer el texto. Es decir, tanto para los
+desarrolladores como para las plataformas que pueden leer este lenguaje,
+las etiquetas contienen información adicional de la estructura del texto.
+HTML es un estándar a cargo del World Wide Web Consortium (W3C) o Consorcio 
+WWW. Se considera el lenguaje web más importante siendo su 
+invención crucial en la aparición, desarrollo y expansión de la World Wide 
+Web (WWW). Es el estándar que se ha impuesto en la visualización de 
+páginas web y es el que todos los navegadores actuales han adoptado.
+El origen de HTML se remonta a 1980, cuando el físico Tim Berners-Lee, 
+trabajador del CERN (Organización Europea para la Investigación Nuclear) 
+propuso un nuevo sistema de "hipertexto" para compartir documentos. Los 
+sistemas de "hipertexto" habían sido desarrollados algunos años antes con 
+la finalidad de permitir a los usuarios acceder a la información 
+relacionada con los documentos electrónicos que estaban visualizando, 
+conviertiéndose, sin ellos esperarlo, en los “precursores” de los enlaces 
+de las páginas web actuales.
+El primer documento formal con la descripción de HTML se publicó en 1991 
+bajo el nombre "HTML Tags" (Etiquetas de HTML).
+La primera propuesta oficial para convertir HTML en un estándar se realizó 
+en 1993 por parte de la IETF (Internet Engineering Task Force). Aunque se 
+consiguieron avances significativos, definiéndose las etiquetas para 
+imágenes, tablas y formularios, ninguna de las dos propuestas realizadas 
+como “estándar” (las llamadas HTML y HTML+), consiguieron convertirse de 
+forma oficial en un estándar. Dos años después (1995), el mismo IETF 
+organiza un grupo de trabajo de HTML, tras el cual, consigue publicar, en 
+septiembre de dicho año, el estándar conocido como HTML 2.0, siendo (a 
+pesar de su versión 2.0) el primer estándar oficial del “lenguaje” HTML.
+A partir de 1996, es el W3C, acrónimo de World Wide Web Consortium, el que 
+publica los estándares de HTML. La versión HTML 3.2 se publicó en Enero de 
+1997 y es la primera recomendación oficial de HTML publicada por dicha 
+organización. Esta revisión incorpora los últimos avances utilizados en el 
+diseño de las páginas web hasta ese año. Con la publicación del estándar 
+HTML 4.0 en Abril de 1998, se produce un gran avance en relación a 
+versiones anteriores. Alguna de las novedades más relevantes de esta 
+versión, es la incorporación, por primera vez, de las “hojas de estilos 
+CSS”, así como la posibilidad de incluir pequeños programas o scripts en 
+el diseño de las páginas web. Una significativa mejora en la accesibilidad 
+de las páginas diseñadas, la posibilidad de elaborar tablas complejas e 
+importantes mejoras en la confección y uso de formularios, son además, 
+algunas de sus otras aportaciones. 
+Se publica en diciembre de 1999 el penúltimo “estándar oficial” de HTML 
+conocido como la versión 4.01, revisión y actualización de la versión 
+anterior que no llega a aportar novedades significativas.En el año 2004,
+las empresas Apple, la Fundación Mozilla y Opera, mostraron su preocupación
+por la falta de interés del W3C en el estándar HTML y decidieron crear una
+nueva asociación llamada WHATWG (Web Hypertext Application Technology Working
+Group). Se centró desde su inicio en el desarrollo del 
+estándar HTML 5.0, y cuyo primer borrador oficial se publicó en enero de 2008.
+Debido a la fuerza de las empresas que forman el grupo WHATWG y a la 
+publicación de un primer borrador de la versión 5.0, en marzo de 2007, el 
+Consorcio W3C decidió retomar la actividad estandarizadora de HTML, 
+publicándose hace poco tiempo este estándar. 
+
+
+2. ¿Cuáles son los principios básicos que el W3C recomienda seguir para 
+la creación de documentos con HTML?
+
+Los principios básicos de la W3C son:
+1. Un esquema uniforme de nombres para localizar recursos en la
+Web (p.ej., URIs).
+2. Protocolos, para acceder a recursos con nombre en la Web (p.ej.,
+HTTP).
+3. Hipertexto, para navegar fácilmente entre recursos (p.ej., HTML). 
+
+
+3. En las Especificaciones de HTML, ¿cuándo un elemento o atributo se 
+considera desaprobado? ¿y obsoleto?
+
+A lo largo del tiempo, algunos elementos y atributos pueden quedar 
+obsoletos o desaprobados en favor de enfoques más modernos y mejores 
+prácticas. Los cambios suelen ser impulsados por la necesidad de mejorar 
+la accesibilidad, la semántica y la mantenibilidad de los sitios web.
+Al ofrecer las hojas de estilo mecanismos de presentación más
+potentes, el W3C declarará "obsoletos" en el futuro muchos de los
+elementos y atributos de presentación del HTML anteriores.
+A lo largo de esta especificación dichos elementos y atributos se
+marcan como "desaprobados". 
+
+
+4. Qué es el DTD y cuáles son los posibles DTDs contemplados en la 
+especificación de HTML 4.01?
+
+DTD (Document Type Definition) es una especificación formal que define la 
+estructura y la gramática válidas para un tipo de documento XML o SGML 
+(Standard Generalized Markup Language). En el caso de HTML, el DTD se 
+utiliza para definir la estructura válida del documento HTML y asegurar 
+que las páginas HTML cumplan con las reglas y estándares establecidos.
+En HTML 4.01, se definen tres DTDs diferentes, que especifican diferentes 
+niveles de transicionalidad y funcionalidad. Los tres DTDs en HTML 4.01 
+son los siguientes:
+.Strict (Estricto): El DTD estricto establece un conjunto completo de reglas 
+y restricciones que definen un documento HTML con la mayor conformidad 
+posible. Limita el uso de elementos y atributos a los más estrictamente 
+definidos y prohíbe el uso de elementos y atributos obsoletos o no 
+recomendados.
+.Transitional (Transicional): El DTD transicional es más permisivo que el 
+estricto y permite el uso de elementos y atributos obsoletos y en desuso 
+para garantizar la compatibilidad con páginas web antiguas que pueden no 
+cumplir con las reglas más estrictas.
+.Frameset: El DTD frameset se utiliza para documentos HTML que utilizan 
+frames (marcos) para dividir la página en varias áreas independientes. Los 
+frames han sido obsoletos en versiones más recientes de HTML (como en HTML5), 
+pero aún se encuentran en algunas páginas web antiguas.
+En una página HTML, se especifica el DTD utilizando una declaración en la 
+primera línea del documento, antes de cualquier otra etiqueta:
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
+"http://www.w3.org/TR/html4/loose.dtd">
+Aquí, se muestra el ejemplo para el DTD transicional. Si se quisiera utilizar 
+el DTD estricto o el DTD frameset, se cambiaría la cadena "Transitional" en 
+la URL por "Strict" o "Frameset", respectivamente.
+
+
+5. Qué son los metadatos y cómo se especifican en HTML?
+
+Los metadatos son, en su definición más simple, datos que describen otros
+datos. 
+Los metadatos en HTML son información adicional que se proporciona sobre 
+el documento HTML en sí mismo. Estos datos describen el contenido, la 
+estructura o el comportamiento del documento y no se muestran directamente 
+en la página web para los usuarios. En cambio, los metadatos son utilizados 
+por navegadores web, motores de búsqueda y otros agentes para comprender y 
+procesar el contenido de la página de manera más efectiva.
+Los metadatos se definen dentro de la sección <head> del documento HTML.
+Algunos de los metadatos más comunes incluyen:
+Título (<title>):Define el título del documento, que generalmente se muestra 
+en la pestaña o barra de título del navegador. También se utiliza como el 
+título predeterminado cuando se guarda un enlace a la página.
+Codificación de caracteres (<meta charset="">):Especifica la codificación de 
+caracteres utilizada en el documento, como UTF-8, que permite mostrar 
+caracteres especiales y caracteres de múltiples idiomas correctamente.
+Descripción (<meta name="description" content="">):Proporciona una breve 
+descripción del contenido de la página. Es útil para los motores de búsqueda, 
+ya que a menudo muestran esta descripción en los resultados de búsqueda.
+Palabras clave (<meta name="keywords" content="">):Solía ser utilizado para 
+especificar palabras clave relevantes para la página. Sin embargo, actualmente, 
+los motores de búsqueda no confían mucho en este metadato para la clasificación 
+de búsqueda.
+Autor (<meta name="author" content="">):Indica el nombre del autor o creador 
+del documento.
+Viewport (<meta name="viewport" content="">):Define cómo el contenido debe 
+ajustarse a la pantalla del dispositivo, esencialmente controlando la escala y 
+el tamaño del contenido en dispositivos móviles.
+Estilos (<link rel="stylesheet" href="">):Enlaza la hoja de estilo CSS externa 
+que se utilizará para el diseño y la presentación de la página.
+Favicons (<link rel="icon" href="">):Permite especificar un icono pequeño que 
+se muestra en la pestaña del navegador y otros lugares cuando el sitio está 
+marcado como favorito.
+Los metadatos son importantes para mejorar la accesibilidad, la indexación y 
+la presentación de una página web. Proporcionar metadatos precisos y relevantes 
+ayuda a los motores de búsqueda a comprender el contenido del sitio y mejora 
+la experiencia del usuario al mostrar información relevante en los resultados 
+de búsqueda.
+
+
