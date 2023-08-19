@@ -9,26 +9,24 @@
 </head>
 
 <body>
-    <label>Botón 1
-        <button type="button" name="boton1" id="boton1">
-            <img src="logo.jpg" alt="Botón con imagen " width="30" height="20" /><br />
-            <b>CLICK AQUÍ</b>
-        </button>
-    </label>
-
-    <p>-------</p>
+    <p>
+        <label><input type="radio" name="opcion" id="X" value="X" />X</label>
+        <br />
+        <label><input type="radio" name="opcion" id="Y" value="Y" />Y</label>
+    </p>
     <!--
-        Utiliza una etiqueta <button> y dentro tiene una imagen en la cual se
-        puede hacer clic.
+        Aquí solo se puede seleccionar una opción ya que ambos input tienen el atributo
+        name="opcion" (iguales).
     -->
-    <label>
-        Botón 2
-        <input type="button" name="boton2" id="boton2" value="CLICK AQUÍ" />
-    </label>
-
+    
+    <p>
+        <label><input type="radio" name="opcion1" id="X" value="X" />X</label><br />
+        <label><input type="radio" name="opcion2" id="Y" value="Y" />Y</label>
+    </p>
     <!--
-        Utiliza una etiqueta <input> de tipo botón con el atributo value="clic aquí"
-    -->
+            Aquí se pueden seleccionar ambas opciones ya que los input tienen el atributo
+            name="" con distintos valores.
+        -->
 </body>
 </html>
 
