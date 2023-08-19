@@ -40,14 +40,30 @@ de aplicaciones y sitios web responsivos.
 
 2. ¿Por qué utilizarlo?
 --------------------------------------------
+HTML5 proporciona una base sólida y moderna para crear sitios web y aplicaciones 
+web interactivas, ricas en contenido y optimizadas para diferentes dispositivos y 
+plataformas.
 
-3. Nombre ventajas
 
 ---------------------------------
 Ejercitación 2
 2.A) ¿Qué formatos soporta ?
+Imágenes (<img>):
+Formatos comunes: JPEG (.jpg), PNG (.png), GIF (.gif)
+Formatos modernos: WebP (.webp)
+
+Audio (<audio>):
+Formato común: MP3 (.mp3)
+Formato moderno: Ogg Vorbis (.ogg), AAC (.aac)
+
+Video (<video>):
+Formato común: MP4 (.mp4)
+Formato moderno: WebM (.webm), Ogg Theora (.ogv)
+
 2.B) Crear un elemento audio
 Ejemplo de src: https://html5tutorial.info/media/vincent.mp3
+
+<audio src="https://html5tutorial.info/media/vincent.mp3"></audio>
 
 ---------------------------------
 Ejercitación 3

@@ -412,7 +412,14 @@ dice "Click aqui", ya que ambos textos estan encerrados en " <a> </a>" diferente
           <option>Junio</option>
      </optgroup>
 </select>
-
+<!--
+        El elemento optgroup representa un grupo de opciones <option> 
+        temáticamente definido, que forma parte de un control select. 
+        Las opciones agrupadas pueden ser etiquetadas mediante el atributo 
+        label, que usarán los navegadores para mostrar como nombre del grupo.
+        En este primer caso se muestra un recuadro (y se ve una sola opción) 
+        y se pueden desplegar las demás opciones. 
+    -->
 
 <select name="lista[]" multiple="multiple">
      <optgroup label=" Caso 1">
@@ -424,3 +431,7 @@ dice "Click aqui", ya que ambos textos estan encerrados en " <a> </a>" diferente
           <option>Junio</option>
      </optgroup>
 </select>
+<!-- 
+        En este caso se muestra un recuadro (y se ven dos opciones ya que tiene
+        el atributo multiple) y se pueden desplegar las demás opciones. 
+    -->
