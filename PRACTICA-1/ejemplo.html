@@ -9,7 +9,41 @@
 </head>
 
 <body>
-    <audio src="https://html5tutorial.info/media/vincent.mp3"></audio>
+    <select name="lista">
+        <optgroup label="Caso 1">
+            <option>Mayo</option>
+            <option>Junio</option>
+        </optgroup>
+        <optgroup label="Caso 2">
+            <option>Mayo</option>
+            <option>Junio</option>
+        </optgroup>
+    </select>
+    <!--
+        El elemento optgroup representa un grupo de opciones <option> 
+        temáticamente definido, que forma parte de un control select. 
+        Las opciones agrupadas pueden ser etiquetadas mediante el atributo 
+        label, que usarán los navegadores para mostrar como nombre del grupo.
+        En este primer caso se muestra un recuadro (y se ve una sola opción) 
+        y se pueden desplegar las demás opciones. 
+    -->
+
+    <p>------------</p>
+
+    <select name="lista[]" multiple="multiple">
+        <optgroup label=" Caso 1">
+            <option>Mayo</option>
+            <option>Junio</option>
+        </optgroup>
+        <optgroup label=" Caso 2">
+            <option>Mayo</option>
+            <option>Junio</option>
+        </optgroup>
+    </select>
+    <!-- 
+        En este caso se muestra un recuadro (y se ven dos opciones ya que tiene
+        el atributo multiple) y se pueden desplegar las demás opciones. 
+    -->
 </body>
 </html>
 
