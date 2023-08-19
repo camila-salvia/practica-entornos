@@ -307,6 +307,15 @@ dice "Click aqui", ya que ambos textos estan encerrados en " <a> </a>" diferente
      <input type="submit" id="boton1" name="boton1" value="Enviar" />
 </form>
 
+<!--
+        El primer formulario tiene un input de tipo "submit" que envía los datos del
+        formulario cuando se hace clic.
+        El input de usuario es de tipo texto y el input de clave es de tipo password, 
+        lo que hace que al escribir la clave esta quede oculta.
+        Los input de usuario y clave también tienen valores predeterminados inicializados.
+        Los campos están organizados con la etiqueta <fielset> que permite organizar
+        en grupos los campos del formulario (encerrándolos en un cuadro).
+    -->
 
 <form id="form2" name="form2" action="" method="get" target="_blank">
      LOGIN<br />
@@ -315,6 +324,14 @@ dice "Click aqui", ya que ambos textos estan encerrados en " <a> </a>" diferente
      <input type="submit" id="boton2" name="boton2" value="Enviar" />
 </form>
 
+<!--
+        El segundo formulario tiene un input de tipo "submit" que envía los datos del
+        formulario cuando se hace clic.
+        El input de usuario y de contraseña son de tipo texto, por lo tanto, cuando se
+        ingrese la contraseña, esta no se ocultará.
+        Con las etiquetas <label> se indican los títulos del campo del formulario
+        
+    -->
 
 <form id="form3" name="form3" action="mailto:xx@xx.com” enctype=text/plain method=" p ost" target="_blank">
      <fieldset>
@@ -325,7 +342,14 @@ dice "Click aqui", ya que ambos textos estan encerrados en " <a> </a>" diferente
      <input type="reset" id="boton3" name="boton3" value="Enviar" />
 </form>
 
-
+<!--
+        El último formulario tiene un input de tipo "reset" que resetea los datos del
+        formulario cuando se hace clic.
+        El input de usuario es de tipo texto y el input de clave es de tipo password, 
+        lo que hace que al escribir la clave esta quede oculta.
+        Los campos están organizados con la etiqueta <fielset> que permite organizar
+        en grupos los campos del formulario (encerrándolos en un cuadro).
+    -->
 <!--
    
 3-i
@@ -337,11 +361,18 @@ dice "Click aqui", ya que ambos textos estan encerrados en " <a> </a>" diferente
      </button>
 </label>
 
-
+<!--
+        Utiliza una etiqueta <button> y dentro tiene una imagen en la cual se
+        puede hacer clic.
+    -->
 <label>
      Botón 2
      <input type="button" name="boton2" id="boton2" value="CLICK AQUÍ" />
 </label>
+
+<!--
+        Utiliza una etiqueta <input> de tipo botón con el atributo value="clic aquí"
+    -->
 
 
 <!--
