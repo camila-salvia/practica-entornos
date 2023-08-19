@@ -40,6 +40,9 @@ de aplicaciones y sitios web responsivos.
 
 2. ¿Por qué utilizarlo?
 --------------------------------------------
+HTML5 proporciona una base sólida y moderna para crear sitios web y aplicaciones 
+web interactivas, ricas en contenido y optimizadas para diferentes dispositivos y 
+plataformas.
 
 3. Nombre ventajas
 
