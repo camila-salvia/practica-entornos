@@ -50,15 +50,15 @@ Ejercitación 2
 2.A) ¿Qué formatos soporta ?
 Imágenes (<img>):
 Formatos comunes: JPEG (.jpg), PNG (.png), GIF (.gif)
-Formatos modernos: WebP (.webp)
+Formatos modernos: WebP (.webp), Svg (.svg)
 
 Audio (<audio>):
 Formato común: MP3 (.mp3)
-Formato moderno: Ogg Vorbis (.ogg), AAC (.aac)
+Formato moderno: Ogg Vorbis (.ogg), AAC (.aac), WAV (.wav)
 
 Video (<video>):
 Formato común: MP4 (.mp4)
-Formato moderno: WebM (.webm), Ogg Theora (.ogv)
+Formato moderno: WebM (.webm), Ogg Theora (.ogv), MKV (.mkv)
 
 2.B) Crear un elemento audio
 Ejemplo de src: https://html5tutorial.info/media/vincent.mp3
@@ -68,8 +68,15 @@ Ejemplo de src: https://html5tutorial.info/media/vincent.mp3
 ---------------------------------
 Ejercitación 3
 3.A) ¿Qué formatos soporta ?
+3a) La etiqueta video soporta formatos como MP4, WebM y Ogg siendo estos los mas utilizados.
+Los formatos menos utilizados son AVI, MKV, FLV y WMV
+
 3.B) Crear un elemento video
 Ejemplo de src: https://www.w3schools.com/html/mov_bbb.mp4/ogg
+
+<video src="https://www.youtube.com/watch?v=mNbnV3aN3KA" controls></video>
+
+---------------------------------
 Ejercitación 4
 4.A) Crear un formulario con un campo requerido
 4.B) Crear un formulario con un campo de tipo email y validar que funcione
