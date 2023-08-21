@@ -73,14 +73,35 @@ Los formatos menos utilizados son AVI, MKV, FLV y WMV
 
 3.B) Crear un elemento video
 Ejemplo de src: https://www.w3schools.com/html/mov_bbb.mp4/ogg
-
 <video src="https://www.youtube.com/watch?v=mNbnV3aN3KA" controls></video>
-
----------------------------------
+--------------------------
 Ejercitación 4
-4.A) Crear un formulario con un campo requerido
-4.B) Crear un formulario con un campo de tipo email y validar que funcione
-4.C) Crear un formulario con un campo de tipo fecha y validar que funcione
-4.D) Crear un formulario con un campo de tipo color y validar que funcione
-4.E) Crear un formulario con un campo de tipo number y validar que funcione. Además configurar
-valores mínimos y máximos permitidos.
+
+<!--4.A) Crear un formulario con un campo requerido-->
+    <form>
+        <input type="text" name="nombre" required>
+        <button>Enviar</button>
+    </form>
+
+    <!--4.B) Crear un formulario con un campo de tipo email y validar que funcione-->
+    <form>
+        <input type="email" name="email" required>
+        <button>Enviar</button>
+    </form>
+
+    <!--4.C) Crear un formulario con un campo de tipo fecha y validar que funcione-->
+    <form>
+        <input type="date" name="fecha">
+        <button>Enviar</button>
+    </form>
+
+    <!--4.D) Crear un formulario con un campo de tipo color y validar que funcione-->
+    <form>
+        <input type="color" name="colores">
+    </form>
+
+    <!--4.E) Crear un formulario con un campo de tipo number y validar que funcione. 
+        Además configurar valores mínimos y máximos permitidos.-->
+    <form>
+        <input type="number" min="1" max="5">
+    </form>
