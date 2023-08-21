@@ -73,7 +73,7 @@ Los formatos menos utilizados son AVI, MKV, FLV y WMV
 
 3.B) Crear un elemento video
 Ejemplo de src: https://www.w3schools.com/html/mov_bbb.mp4/ogg
-<video src="https://www.youtube.com/watch?v=mNbnV3aN3KA" controls></video>
+<video src="https://www.w3schools.com/html/mov_bbb.mp4/ogg" controls></video>
 --------------------------
 Ejercitación 4
 
