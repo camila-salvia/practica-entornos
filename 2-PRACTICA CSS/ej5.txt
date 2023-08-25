@@ -10,6 +10,15 @@ ser color negro.
 identificado como “ultimo” debe ser amarillo pero si es un enlace a 
 otra página debe ser azul.
 
+#ultimo ul {
+    color: yellow;
+}
+
+#ultimo ul a {
+    color: blue;
+}
+
+
 4. Los elementos identificados como “importante” dentro de cualquier 
 bloque deben ser verdes, pero si están dentro de un título deben ser 
 rojos.
