@@ -36,12 +36,53 @@ al documento HTML utilizando el elemento <link> en la sección <head>.
 4. ¿ Cuáles son los distintos tipos de selectores más utilizados?
 Ejemplifique cada uno.
 
+Los distintos tipos de selectores más utilizados son:
+
+Selector universal 
+Sintaxis: * { atributo:valor; }
+ej:
+* { color: grey; }/* El estilo se aplicará a todos los elementos de la página*/
+
+Selector de clase 
+Sintaxis: .clase { atributo:valor }
+ej:
+.blend{color: red;} /* El estilo se aplicará a cualquier elemento que tenga la clase .blend */
+
+Selector de ID 
+Sintaxis: #id { atributo:valor }
+ej:
+#cent {color: blue;} /* El estilo se aplicará al elemento que tenga el id #cent */
+
+Selector de atributo
+Sintaxis: [nombre del atributo a localizar]
+ej:
+[alt] { border: 4px solid purple; } /* Podemos encontar los elementos que tengan un atributo alt */
+
 
 5. ¿ Qué es una pseudo-clase? Cuáles son las más utilizadas aplicadas a vínculos?
+Una pseudo-clase es una palabra clave que se añade a un selector en una regla CSS para seleccionar y aplicar estilos a un elemento HTML en un estado o contexto particular. Estas permiten personalizar la apariencia de los enlaces en diferentes estados, lo que puede mejorar la experiencia de usuario y hacer que la navegación sea más intuitiva y atractiva visualmente.
+
+Las pseudo-clases más utilizadas en vínculos (enlaces) son:
+
+":hover" se activa cuando el usuario pone el cursor sobre el enlace.
+
+":active" se activa cuando el usuario hace clic en el enlace.
+
+":visited" se aplica a un enlace que ya ha sido visitado por el usuario, puede ser útil para resaltar enlaces ya explorados.
+
+":link" se aplica a enlaces que aún no han sido visitados. Es el estado inicial de un enlace antes de que el usuario lo visite.
 
 
 6. ¿ Qué es la herencia?
 
+La herencia permite declarar propiedades en elementos de nivel alto y que estas
+propiedades se transmitan a todos los elementos descendientes. Sólo algunas
+propiedades se heredan por defecto, pero la herencia puede forzarse mediante
+la palabra clave inherit .
 
 7. ¿ En qué consiste el proceso denominado cascada?
 
+ La cascada es el algoritmo para resolver conflictos donde se aplican múltiples
+ reglas CSS a un elemento HTML.La cascada, y el concepto estrechamente relacionado
+ de especificidad son mecanismos que controlan qué regla se aplica cuando aparecen
+ conflictos.

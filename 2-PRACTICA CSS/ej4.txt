@@ -1,0 +1,55 @@
+Dadas las siguientes declaraciones:
+
+* {color:green; }
+a:link {color:gray }
+a:visited{color:blue }
+a:hover {color:fuchsia }
+a:active {color:red }
+p {font-family: arial,helvetica;font-size: 10px;color:black; }
+.contenido{font-size: 14px;font-weight: bold; }
+
+Analizar los siguientes códigos y comparar sus efectos. Explicar:
+
+--------------------------------------------------------------------------------
+Codigo 1:
+
+<body>
+<p class="contenido" style="font-weight: normal;">
+Este es un texto ...............</p>
+<table>
+<tr>
+<td>Y esta es una tabla.......</td>
+</tr>
+<tr>
+<td><a href="http://www.google.com.ar">con un
+enlace</a></td>
+</tr>
+</table>
+</body>
+
+En este código, hay un estilo en línea aplicado a un párrafo con la clase "contenido". La clase .contenido tiene un font-weight de bold definido en la hoja de estilos global. Sin embargo, en el estilo en línea se ha sobrescrito el valor con font-weight: normal;. Por lo tanto, el texto dentro del párrafo tendrá un grosor de fuente normal en lugar de negrita.
+
+Para el enlace dentro de la tabla, se aplicarán las siguientes pseudo-clases:
+
+a:link -> El color del enlace será gris (gray) porque se aplica antes de que se convierta en un enlace visitado.
+a:visited -> El color del enlace será azul (blue) si ya ha sido visitado previamente.
+a:hover -> Cuando el cursor esté sobre el enlace, el color cambiará a fucsia (fuchsia).
+a:active -> Durante el clic activo en el enlace, el color será rojo (red).
+
+
+--------------------------------------------------------------------------------
+Codigo 2:
+
+<body class="contenido">
+<p> Este es un texto................</p>
+<table>
+<tr>
+<td>Y esta es una tabla.......</td>
+</tr>
+<tr>
+<td><a href="http://www.google.com.ar">con
+un enlace</a></td>
+</tr>
+</table>
+</body>
+--------------------------------------------------------------------------------
