@@ -1,0 +1,8 @@
+1- Qué es una interfaz y cuáles son sus elementos fundamentales?
+
+2- Qué es un sistema de navegación y cuáles deben ser sus elementos 
+indispensables?
+
+3- Qué es Flash y qué problemas puede acarrear su uso? 
+
+4- Qué es AJAX y qué problemas puede acarrear su uso?
