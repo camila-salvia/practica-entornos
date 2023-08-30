@@ -1,0 +1,22 @@
+.div-superior{
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-medio{
+    display: flex;
+    justify-content: space-between;
+}
+
+#divisiones{
+    margin: 20px;
+}
+
+.elementos-pie{
+    display: flex;
+    justify-content: center;
+}
+
+#pie{
+    margin: 20px;
+}

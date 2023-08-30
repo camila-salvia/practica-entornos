@@ -1,0 +1,108 @@
+Ejercicio 1: Responder
+---------------------------
+1. ¿ Qué es CSS y para qué se usa?
+
+Las siglas CSS (Cascading Style Sheets) significan «Hojas de estilo en 
+cascada» y parten de un concepto simple pero muy potente: aplicar estilos 
+(colores, formas, márgenes, etc...) a uno o varios documentos de forma 
+automática y masiva, en lugar de aplicar estilos directamente a cada elemento
+en el HTML como se hacía en el pasado.
+Las reglas de CSS describen cómo deben verse los elementos en términos de 
+color, tamaño, fuente, espaciado, posicionamiento y otros aspectos visuales, 
+dando así un estilo mucho más lindo visualmente a la página web.
+
+
+2. CSS utiliza reglas para las declaraciones de estilo, ¿cómo funcionan?
+
+Se le denomina estilos en cascada (CSS) porque se lee, procesa y aplica el código 
+desde arriba hacia abajo siguiendo un patrón denominado herencia y en el 
+caso de existir ambigüedad , se siguen una serie de normas para resolverla.
+
+
+3. ¿ Cuáles son las tres formas de dar estilo a un documento?
+
+Para dar estilo a un documento HTML puedes utilizar:
+- Atributo "style":
+Por ejemplo en un párrafo <p style="aquí el estilo">Hola</p> 
+- Etiqueta <style>:
+O en el <head> puedes utilizar una etiqueta <style></style> y todos los
+estilos allí dentro se aplicarán al documento.
+- Archivo de estilos externos:
+Vincularlo a un archivo .css separado. 
+Puedes definir todas las reglas de estilo que necesitas y luego vincularlo 
+al documento HTML utilizando el elemento <link> en la sección <head>. 
+
+
+4. ¿ Cuáles son los distintos tipos de selectores más utilizados?
+Ejemplifique cada uno.
+
+Los distintos tipos de selectores más utilizados son:
+
+Selector universal 
+Sintaxis: *{ 
+    atributo:valor; 
+    }
+ej:
+*{ 
+    color: grey; 
+    }             /* El estilo se aplicará a todos los elementos de la 
+                    página*/
+
+Selector de clase 
+Sintaxis: .clase{ 
+    atributo:valor 
+    }
+ej:
+.blend{
+    color: red;
+    }             /* El estilo se aplicará a cualquier elemento que tenga 
+                     la clase .blend */
+
+Selector de ID 
+Sintaxis: #id{ 
+    atributo:valor 
+    }
+ej:
+#cent{
+    color: blue;
+    }            /* El estilo se aplicará al elemento que tenga el 
+                    id #cent */
+
+Selector de atributo
+Sintaxis: [nombre del atributo a localizar]{ 
+    atributo:valor 
+    }
+ej:
+[alt]{ 
+    border: 4px solid purple; 
+    }                         /* Podemos encontar los elementos que tengan 
+                                 un atributo alt */
+
+
+5. ¿ Qué es una pseudo-clase? Cuáles son las más utilizadas aplicadas a vínculos?
+Una pseudo-clase es una palabra clave que se añade a un selector en una regla CSS para seleccionar y aplicar estilos a un elemento HTML en un estado o contexto particular. Estas permiten personalizar la apariencia de los enlaces en diferentes estados, lo que puede mejorar la experiencia de usuario y hacer que la navegación sea más intuitiva y atractiva visualmente.
+
+Las pseudo-clases más utilizadas en vínculos (enlaces) son:
+
+":hover" se activa cuando el usuario pone el cursor sobre el enlace.
+
+":active" se activa cuando el usuario hace clic en el enlace.
+
+":visited" se aplica a un enlace que ya ha sido visitado por el usuario, puede ser útil para resaltar enlaces ya explorados.
+
+":link" se aplica a enlaces que aún no han sido visitados. Es el estado inicial de un enlace antes de que el usuario lo visite.
+
+
+6. ¿ Qué es la herencia?
+
+La herencia permite declarar propiedades en elementos de nivel alto y que estas
+propiedades se transmitan a todos los elementos descendientes. Sólo algunas
+propiedades se heredan por defecto, pero la herencia puede forzarse mediante
+la palabra clave inherit .
+
+7. ¿ En qué consiste el proceso denominado cascada?
+
+ La cascada es el algoritmo para resolver conflictos donde se aplican múltiples
+ reglas CSS a un elemento HTML.La cascada, y el concepto estrechamente relacionado
+ de especificidad son mecanismos que controlan qué regla se aplica cuando aparecen
+ conflictos.
