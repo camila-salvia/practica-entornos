@@ -11,6 +11,7 @@ sitio?
 5- Qué son los escenarios de uso?
 
 6- Cuáles deberían ser los contenidos indispensables de un sitio web?
+En un sitio web los contenidos indispensables deberian ser
 
 7- Cuáles son los requerimientos funcionales más frecuentes en un sitio web?
 
