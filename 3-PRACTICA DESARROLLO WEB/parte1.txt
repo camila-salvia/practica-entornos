@@ -1,39 +1,45 @@
-1- A qué nos referimos al hablar de Arquitectura de la Información y 
-cuáles son los ítems principales que constituyen su metodología?
+1- A qué nos referimos al hablar de Arquitectura de la Información y cuáles son los ítems principales que constituyen su metodología?
+Es el conjunto de métodos y herramientas enfocadas en la organización, estructuración y presentación de la información hacia los usuarios. 
+Siendo sus principales enfoques:
+  •	Definición de objetivos / necesidades.
+  •	Definición de audiencia objetiva (alcance).
+  •	Definición de la estructura y contenido del sitio.
 
-2- Cuál es la ventaja de tener identificados y definidos los objetivos del 
-sitio?
+2- Cuál es la ventaja de tener identificados y definidos los objetivos del sitio?
+Es fundamental comprender las necesidades y objetivos tanto de los usuarios como de la organización que está creando la estructura de información. Esto incluye identificar las metas del proyecto, los perfiles de usuario, sus tareas y sus expectativas.
+Algunas ventajas de definir los objetivos del sitio serían las siguientes:
+  •	De cada uno de estos objetivos se pueden desprender tareas concretas que permitan avanzar en el     cumplimiento de ellos.
+  •	Con objetivos claros, el equipo de desarrollo puede priorizar tareas y recursos de manera más efectiva.
+  •	Los objetivos del sitio web sirven como guía para la toma de decisiones a lo largo del proceso de desarrollo y diseño.
 
 3- Qué es la audiencia?
+La audiencia objetiva o alcance de un sitio web hace referencia al grupo específico de personas a los que se dirige y a quienes se espera que visiten y utilicen el sitio web.
+Definir claramente la audiencia objetivo es fundamental para el éxito de un sitio web, ya que influirá en muchos aspectos del diseño, el contenido y la estrategia de marketing.
 
 4- Según qué tipos de características se deben analizar las audiencias?
+Para definir la audiencia objetivo, es necesario comprender quiénes son los usuarios potenciales del sitio web. Esto implica identificar características demográficas (como edad, género, ubicación geográfica, nivel de educación, ingresos, etc.), características psicográficas (como intereses, valores, comportamientos), y considerar cualquier otro factor relevante.
 
 5- Qué son los escenarios de uso?
+Los escenarios de uso (casos de uso), son representaciones narrativas de situaciones específicas en las que los usuarios interactúan con un sistema. Estos escenarios son una herramienta importante en el diseño para comprender cómo se utilizará un sistema en situaciones de la vida real.
 
 6- Cuáles deberían ser los contenidos indispensables de un sitio web?
-En un sitio web los contenidos indispensables deberian ser
 
 7- Cuáles son los requerimientos funcionales más frecuentes en un sitio web?
 
-8- Al definir la estructura de un sitio, ¿cuáles son los dos aspectos 
-fundamentales que se deben considerar?
+8- Al definir la estructura de un sitio, ¿cuáles son los dos aspectos fundamentales que se deben considerar?
 
 9- Cuál es la diferencia entre estructura y diseño de un sitio web?
 
-10- Cuáles son las características que debe tener el sistema de navegación?
-Explicar c/u.
+10- Cuáles son las características que debe tener el sistema de navegación? Explicar c/u.
 
 11- Cuáles son los elementos más importantes de un sistema de navegación?
 
-12- Cuáles son las cuatro etapas sucesivas que se deben realizar para 
-definir el Diseño Visual de un sitio web y en qué consiste cada una?
+12- Cuáles son las cuatro etapas sucesivas que se deben realizar para definir el Diseño Visual de un sitio web y en qué consiste cada una?
 
-13- Cuáles son los sistemas que puede utilizar un Sitio Web para recibir 
-feedback o retroalimentación de parte del usuario?
+13- Cuáles son los sistemas que puede utilizar un Sitio Web para recibir feedback o retroalimentación de parte del usuario?
 
 14- En qué consiste la Prueba de verificación de Contenidos?
 
 15- En qué consiste la Prueba de Verificaciones de Interfaces?
 
-16- Cuáles son los chequeos más importantes que se deben realizar respecto 
-de las funcionalidades y aplicaciones que ofrece el sitio?
+16- Cuáles son los chequeos más importantes que se deben realizar respecto de las funcionalidades y aplicaciones que ofrece el sitio?
