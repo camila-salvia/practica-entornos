@@ -8,7 +8,7 @@ Siendo sus principales enfoques:
 2- Cuál es la ventaja de tener identificados y definidos los objetivos del sitio?
 Es fundamental comprender las necesidades y objetivos tanto de los usuarios como de la organización que está creando la estructura de información. Esto incluye identificar las metas del proyecto, los perfiles de usuario, sus tareas y sus expectativas.
 Algunas ventajas de definir los objetivos del sitio serían las siguientes:
-  •	De cada uno de estos objetivos se pueden desprender tareas concretas que permitan avanzar en el     cumplimiento de ellos.
+  •	De cada uno de estos objetivos se pueden desprender tareas concretas que permitan avanzar en el cumplimiento de ellos.
   •	Con objetivos claros, el equipo de desarrollo puede priorizar tareas y recursos de manera más efectiva.
   •	Los objetivos del sitio web sirven como guía para la toma de decisiones a lo largo del proceso de desarrollo y diseño.
 
@@ -23,23 +23,49 @@ Para definir la audiencia objetivo, es necesario comprender quiénes son los usu
 Los escenarios de uso (casos de uso), son representaciones narrativas de situaciones específicas en las que los usuarios interactúan con un sistema. Estos escenarios son una herramienta importante en el diseño para comprender cómo se utilizará un sistema en situaciones de la vida real.
 
 6- Cuáles deberían ser los contenidos indispensables de un sitio web?
+En un sitio web los contenidos indispensables deberian ser: información adicional, recursos multimediales y otros que aprovechen el hecho de que el usuario accede a la información a través de un sistema computacional.
+  • Acerca de la Institución: entregar la información completa referida a Autoridades, Organigrama, Normativa legal asociada, Oficinas, Horas de Atención, Teléfonos, etc.
+  • Productos / Servicios: destacar las actividades principales que el usuario puede hacer en la institución; puede incluir una guía de trámites que facilite las acciones de las personas que acudirán a la institución y que considere servicios interactivos para hacerlos desde el Sitio Web.
+  • Novedades de la Institución: últimas actividades, noticias, etc.
 
 7- Cuáles son los requerimientos funcionales más frecuentes en un sitio web?
+Los requerimientos funcionales mas frecuentes en un sitio web son indicar cuáles deben ser los servicios interactivos que se espera incluir en el sitio y lo que se busca que el sitio «haga», es decir, los tipos de interacción que se busca incluir.
+Dentro de los servicios interactivos más frecuentes se cuentan las siguientes:
+  • Formulario de Contacto para envío de mensajes electrónicos.
+  • Sistema de envío de una noticia por mail a un amigo.
+  • Formato de impresión de los contenidos.
+  • Mapa del Sitio.
+Dentro de las funcionalidades de mayor complejidad, pero a las que todo sitio debería aspirar, se cuenta:
+  • Buscador interno del Sitio Web.
+  • Área de acceso privado para usuarios registrados.
+  • Sistema de envío de boletines de noticias del sitio a usuarios registrados.
+Será importante que el sitio cuente con todos los servicios interactivos descritos como mínimos, para ofrecer una mejor experiencia al usuario que lo visita.
 
 8- Al definir la estructura de un sitio, ¿cuáles son los dos aspectos fundamentales que se deben considerar?
+Se deben considerar para definir la estructura de un sitio web: un Árbol de contenidos (muestra de manera práctica cuántas secciones tendrá el sitio en desarrollo y cuántos niveles habrá dentro de cada uno), ya sea Funcional (agrupa los contenidos deacuerdo a las tareas que se puedan realizar dentro del sitio) u Organizacional (agrupa los contenidos de la manera como se organiza la institución); o un Sistema de Navegación (los usuarios podrán avanzar por sus diferentes áreas, sin perderse) donde se deberan incluir los elementos Textual (refiere a que la navegacion se hara a traves de elementos concretos) y Contextual (que es todo lo referido a como se presenta la informacion).
 
 9- Cuál es la diferencia entre estructura y diseño de un sitio web?
+Por un lado, Estructura refiere a la forma que tendrá el Sitio Web en términos generales con sus secciones, funcionalidades y sistemas de navegación. No considera ni incluye elementos gráficos (logotipos, viñetas, etc.). Y por otro lado, Diseño refiere a la solución gráfica que se creará para el sitio, en la cual aparecen colores, logotipos, viñetas, y otros elementos de diseño que permiten identificar visualmente al sitio.
 
 10- Cuáles son las características que debe tener el sistema de navegación? Explicar c/u.
+El sistemna de navegacion debe ser:
+  • Consistente: debe ser similar en todo el sitio, en lo referido a su ubicación y disposición en las páginas.
+  • Uniforme: debe utilizar similares términos, para que el usuario confíe en que sus opciones llevan siempre hacia los mismos lugares dentro del sitio.
+  • Visible: debe distinguirse claramente dentro del sitio, para que el usuario lo tenga como guía permanente en el área en que se encuentre del sitio.
 
 11- Cuáles son los elementos más importantes de un sistema de navegación?
 
+
 12- Cuáles son las cuatro etapas sucesivas que se deben realizar para definir el Diseño Visual de un sitio web y en qué consiste cada una?
+
 
 13- Cuáles son los sistemas que puede utilizar un Sitio Web para recibir feedback o retroalimentación de parte del usuario?
 
+
 14- En qué consiste la Prueba de verificación de Contenidos?
 
+
 15- En qué consiste la Prueba de Verificaciones de Interfaces?
+
 
 16- Cuáles son los chequeos más importantes que se deben realizar respecto de las funcionalidades y aplicaciones que ofrece el sitio?
