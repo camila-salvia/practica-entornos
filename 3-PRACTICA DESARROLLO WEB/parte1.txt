@@ -54,13 +54,24 @@ El sistemna de navegacion debe ser:
   • Visible: debe distinguirse claramente dentro del sitio, para que el usuario lo tenga como guía permanente en el área en que se encuentre del sitio.
 
 11- Cuáles son los elementos más importantes de un sistema de navegación?
-
+  • Cabecera: permite conocer las diversas páginas que existen en el sitio web. Debería incluir un logo, nombre del sitio y menú de navegación principal con las pestañas más relevantes como “contacto” o “home”. Debería incluir una barra de búsqueda para que el usuario encuentre más rápido lo que está buscando y un enlace de retorno al inicio.
+  • Buscador: integrar un buscador de tipo interno, permite a todo usuario localizar los temas o sitios dentro de la web que más le interesen según sus necesidades.
+  • Pie de página: Aparece en la parte inferior de cada página y permite tener acceso a los enlaces de relevancia como la información de contacto, enlace a redes sociales, políticas de privacidad y derechos de autor.
+Además:
+  • Diseño coherente:
+Un diseño visual coherente ayuda a los usuarios a identificar y comprender los elementos de navegación.
+  • Regla de oro de los 3 clics:
+Es una de las reglas de oro de los expertos en navegación web. Si la navegabilidad es suficientemente buena, deberás llegar a cualquier parte de tu sitio en máximo 3 clics. Si se pasa de esta cantidad estándar, deberás hacer optimizaciones.
 
 12- Cuáles son las cuatro etapas sucesivas que se deben realizar para definir el Diseño Visual de un sitio web y en qué consiste cada una?
 
 
 13- Cuáles son los sistemas que puede utilizar un Sitio Web para recibir feedback o retroalimentación de parte del usuario?
-
+  • Formularios de contacto: Permiten a los usuarios enviar mensajes, preguntas o comentarios directamente al equipo detrás del sitio web. Estos formularios generalmente incluyen campos como nombre, dirección de correo electrónico y un área de texto para el mensaje.
+  • Botones de retroalimentación: Los botones de retroalimentación permiten a los usuarios proporcionar comentarios positivos o negativos sobre la página en la que se encuentran.
+  • Chat en vivo: Algunos sitios web ofrecen chat en vivo, lo que permite a los usuarios comunicarse en tiempo real con un miembro del equipo del sitio web. Esto puede ser útil para resolver problemas o responder preguntas de manera rápida.
+  • Foros y comentarios: Permitir a los usuarios dejar comentarios en las publicaciones de un blog o en foros relacionados con el contenido del sitio web puede fomentar la discusión y la retroalimentación.
+  • Correos electrónicos de seguimiento: Después de que los usuarios realicen una acción, como una compra o una suscripción, puedes enviar correos electrónicos de seguimiento solicitando comentarios sobre su experiencia.
 
 14- En qué consiste la Prueba de verificación de Contenidos?
 
