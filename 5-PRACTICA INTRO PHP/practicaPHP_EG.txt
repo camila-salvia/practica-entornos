@@ -1,0 +1,153 @@
+PRÁCTICA 4: INTRODUCCIÓN A PHP
+
+Ejercicio 1:
+En el siguiente código identificar:
+• las variables y su tipo
+• los operadores
+• las funciones y sus parámetros
+• las estructuras de control
+• cuál es la salida por pantalla
+
+<?php
+function doble($i) {
+  return $i*2;
+}
+$a = TRUE;
+$b = "xyz";
+$c = 'xyz';
+$d = 12;
+echo gettype($a);
+echo gettype($b);
+echo gettype($c);
+echo gettype($d);
+if (is_int($d)) {
+  $d += 4;
+}
+if (is_string($a)) {
+  echo "Cadena: $a";
+}
+$d = $a ? ++$d : $d*3; //operador ternario
+$f = doble($d++); /operador unario
+$g = $f += 10;
+echo $a, $b, $c, $d, $f , $g;
+?> 
+
+VARIABLES Y SUS TIPOS
+"a" de tipo boolean
+"b" de tipo string
+"c" de tipo string
+"d" de tipo integer
+
+OPERADORES
+unarios: ++
+binarios: +=, =, *
+ternarios: ?:
+
+FUNCIONES Y SUS PARÁMETROS
+doble($i) calcula el doble
+Función hecha por el programador.
+
+gettype($a) sirve para averiguar el tipo de dato de una variable
+is_int($d) sirve para averiguar si la variable es de tipo entero
+is_string($a) sirve para averiguar si la variable es de tipo string
+Estas tres son funciones predefinidas en php.
+
+ESTRUCTURAS DE CONTROL
+if
+Permite la ejecución condicional de fragmentos de código.
+if (condición) {
+  sentencia1;
+  sentencia2;
+}
+
+SALIDA POR PANTALLA
+booleanstringstringinteger1xyzxyz184444
+
+
+Ejercicio 2:
+Indicar si los siguientes códigos son equivalentes.
+a) 
+<?php
+$i = 1;
+while ($i <= 10) {
+ print $i++;
+}
+?>
+Este código imprime los valores del 1 al 10 que son los valores que toma i. Al final queda i=11 pero este no se imprime.
+
+<?php
+$i = 1;
+while ($i <= 10):
+ print $i;
+ $i++;
+endwhile;
+?>
+Este código también imprime los valores del 1 al 10, y el valor final de i=11.
+
+<?php
+$i = 0;
+do {
+ print ++$i;
+} while ($i<10);
+?>
+Este código también imprime los valores del 1 al 10, pero el valor final de i=10.
+
+Por lo tanto, los códigos no son equivalentes.
+
+b)
+<?php
+for ($i = 1; $i <= 10; $i++) {
+ print $i;
+}
+?>
+Imprime los números del 1 al 10. El valor final es i=11.
+
+<?php
+for ($i = 1; $i <= 10; print $i, $i++) ;
+?>
+Imprime los números del 1 al 10. El valor final es i=11.
+
+<?php
+for ($i = 1; ;$i++) {
+ if ($i > 10) {
+ break;
+ }
+ print $i;
+}
+?>
+Imprime los números del 1 al 10. El valor final es i=11.
+
+<?php
+$i = 1;
+for (;;) {
+ if ($i > 10) {
+ break;
+ }
+ print $i;
+ $i++;
+}
+?>
+Imprime los números del 1 al 10. El valor final es i=11.
+En consecuencia, todos los códigos son equivalentes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
