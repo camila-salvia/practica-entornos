@@ -131,8 +131,91 @@ Imprime los números del 1 al 10. El valor final es i=11.
 En consecuencia, todos los códigos son equivalentes.
 
 
+c)
+Caso 1:
+<?php
+…
+…
+if ($i == 0) {
+ print "i equals 0";
+} elseif ($i == 1) {
+ print "i equals 1";
+} elseif ($i == 2) {
+ print "i equals 2";
+}
+?>
+
+Caso 2:
+<?php
+…
+…
+switch ($i) {
+ case 0:
+ print "i equals 0";
+ break;
+ case 1:
+ print "i equals 1";
+ break;
+ case 2:
+ print "i equals 2";
+ break;
+}
+?>
+
+En ambos casos los codigos son equivalentes en cuanto a funcionalidad y producirán el mismo resultado.
 
 
+Ejercicio 3:
+Explicar para qué se utiliza el siguiente código:
+a)
+<html>
+<head><title>Documento 1</title></head>
+<body>
+<?php
+  echo "<table width = 90% border = '1' >";
+ $row = 5;
+ $col = 2;
+ for ($r = 1; $r <= $row; $r++) {
+ echo "<tr>";
+ for ($c = 1; $c <= $col;$c++) {
+ echo "<td>&nbsp;</td>\n";
+ } echo "</tr>\n";
+ }
+ echo "</table>\n";
+?>
+</body></html>
 
+Se crea una tabla de 2 columnas (col) con 5 filas (row).
+El bucle for exterior se utiliza para generar las filas (se ejecuta 5 veces, una vez por cada fila)
+El bucle for interior se utiliza para generar las columnas (se ejecuta 2 veces, una vez por cada columna en cada fila)
+Dentro del bucle interior se agrega una celda de tabla (<td>) con el contenido &nbsp; (espacio en blanco)
+Se cierra cada fila de la tabla con la etiqueta </tr> después de que se hayan agregado todas las celdas en esa fila.
+
+b)
+<html>
+<head><title>Documento 2</title></head>
+<body>
+<?php
+if (!isset($_POST['submit'])) {
+?>
+ <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+ Edad: <input name="age" size="2">
+ <input type="submit" name="submit" value="Ir">
+ </form>
+<?php
+ }
+else {
+ $age = $_POST['age'];
+ if ($age >= 21) {
+ echo 'Mayor de edad';
+ }
+ else {
+ echo 'Menor de edad';
+ }
+}
+?>
+</body></html>
+
+Este código muestra un formulario donde se debe ingresar la edad y luego proporciona una respuesta en función de esa edad. Si el formulario no se ha enviado, se muestra el formulario para ingresar la edad; si se ha enviado, se muestra si el usuario es mayor o menor de edad.
 
 
