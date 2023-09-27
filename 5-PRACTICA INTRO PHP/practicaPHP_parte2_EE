@@ -1,3 +1,16 @@
+EJERCICIO 1
+
+Sí, los códigos son equivalentes en términos de resultados finales. Ambos códigos crean un array asociativo en PHP con las mismas claves y valores. Las diferencias son principalmente sintácticas.
+
+En el primer código, se utiliza la función array() para inicializar un array asociativo con las claves y valores especificados.
+
+En el segundo código, se inicializa un array asociativo vacío $ay luego se asignan los valores a las claves utilizando la notación de corchetes.
+
+La única diferencia significativa es que en el segundo código, se utiliza $a[] = 4; para agregar el valor 4 al final del array sin una clave específica. Esto es equivalente a agregarlo al array en la posición numérica siguiente disponible. En el primer código, esto se hace de manera implícita al no proporcionar una clave después de la coma en la última entrada.
+
+En resumen, ambos códigos producirán el mismo resultado final: un array asociativo con las mismas claves y valores. La elección entre uno u otro depende de la preferencia del programador en cuanto a la sintaxis.
+
+
 Ejercicio 2:
 En cada caso, indicar las salidas correspondientes:
 a-
