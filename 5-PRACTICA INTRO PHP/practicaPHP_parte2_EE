@@ -67,12 +67,14 @@ sumar(5,6);
 Ejercicio 4:
 Analizar la siguiente función, y escribir un script para probar su funcionamiento:
 
+<?php
 function comprobar_nombre_usuario($nombre_usuario){
- //compruebo que el tamaño del string sea válido.
+//compruebo que el tamaño del string sea válido.
  if (strlen($nombre_usuario)<3 || strlen($nombre_usuario)>20){
  echo $nombre_usuario . " no es válido<br>";
  return false;
  }
+
  //compruebo que los caracteres sean los permitidos
  $permitidos = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-
 _";
@@ -85,3 +87,17 @@ _";
  echo $nombre_usuario . " es válido<br>";
  return true;
 } 
+// Pruebas
+$usuarios_validos = ["usuario123", "nombre-usuario", "mi_usuario"];
+$usuarios_invalidos = ["us", "usuario@", "usuario*!"];
+
+echo "<h2>Usuarios Válidos:</h2>";
+foreach ($usuarios_validos as $usuario) {
+    comprobar_nombre_usuario($usuario);
+}
+
+echo "<h2>Usuarios Inválidos:</h2>";
+foreach ($usuarios_invalidos as $usuario) {
+    comprobar_nombre_usuario($usuario);
+}
+?>
