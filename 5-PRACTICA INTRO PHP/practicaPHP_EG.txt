@@ -131,23 +131,128 @@ Imprime los números del 1 al 10. El valor final es i=11.
 En consecuencia, todos los códigos son equivalentes.
 
 
+c)
+Caso 1:
+<?php
+…
+…
+if ($i == 0) {
+ print "i equals 0";
+} elseif ($i == 1) {
+ print "i equals 1";
+} elseif ($i == 2) {
+ print "i equals 2";
+}
+?>
+
+Caso 2:
+<?php
+…
+…
+switch ($i) {
+ case 0:
+ print "i equals 0";
+ break;
+ case 1:
+ print "i equals 1";
+ break;
+ case 2:
+ print "i equals 2";
+ break;
+}
+?>
+
+En ambos casos los codigos son equivalentes en cuanto a funcionalidad y producirán el mismo resultado.
 
 
+Ejercicio 3:
+Explicar para qué se utiliza el siguiente código:
+a)
+<html>
+<head><title>Documento 1</title></head>
+<body>
+<?php
+  echo "<table width = 90% border = '1' >";
+ $row = 5;
+ $col = 2;
+ for ($r = 1; $r <= $row; $r++) {
+ echo "<tr>";
+ for ($c = 1; $c <= $col;$c++) {
+ echo "<td>&nbsp;</td>\n";
+ } echo "</tr>\n";
+ }
+ echo "</table>\n";
+?>
+</body></html>
+
+Se crea una tabla de 2 columnas (col) con 5 filas (row).
+El bucle for exterior se utiliza para generar las filas (se ejecuta 5 veces, una vez por cada fila)
+El bucle for interior se utiliza para generar las columnas (se ejecuta 2 veces, una vez por cada columna en cada fila)
+Dentro del bucle interior se agrega una celda de tabla (<td>) con el contenido &nbsp; (espacio en blanco)
+Se cierra cada fila de la tabla con la etiqueta </tr> después de que se hayan agregado todas las celdas en esa fila.
+
+b)
+<html>
+<head><title>Documento 2</title></head>
+<body>
+<?php
+if (!isset($_POST['submit'])) {
+?>
+ <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+ Edad: <input name="age" size="2">
+ <input type="submit" name="submit" value="Ir">
+ </form>
+<?php
+ }
+else {
+ $age = $_POST['age'];
+ if ($age >= 21) {
+ echo 'Mayor de edad';
+ }
+ else {
+ echo 'Menor de edad';
+ }
+}
+?>
+</body></html>
+
+Este código muestra un formulario donde se debe ingresar la edad y luego proporciona una respuesta en función de esa edad. Si el formulario no se ha enviado, se muestra el formulario para ingresar la edad; si se ha enviado, se muestra si el usuario es mayor o menor de edad.
 
 
+EJERCICIO 4
+
+La salidas que va a poducir el código son las siguientes:
+
+En la primera línea del código, se intenta imprimir la cadena "El $flor $color \n". Aquí, $flory $colorson variables dentro del contexto actual de PHP, pero no han sido definidas previamente en ese contexto. Por lo tanto, PHP las trata como cadenas vacías y obtienes "El $flor $color \n"como resultado.
+
+Luego, se incluye el archivo 'datos.php' usando include. Dentro de 'datos.php', se definen las variables $colory $flor. Sin embargo, estas variables se definen en un ámbito diferente al del script principal. Por lo tanto, cuando regresas al script principal, las variables $colory $flormantienen sus valores originales (en este caso, cadenas vacías).
+
+Después de incluir 'datos.php', se intenta imprimir "El $flor $color". Nuevamente, dado que $flory $colorno se han definido en el contexto actual del script principal, se tratan como cadenas vacías y obtienes "El ". El espacio entre las comillas es el resultado de la separación entre Ely las variables no definidas.
 
 
+EJERCICIO 5
 
+Para poder hacer eso, podemos utilizar la 'función file_put_contents' en PHP para crear un archivo de texto llamado "contador.dat" en la misma carpeta con un valor inicial para el contador y configurar los permisos de lectura y escritura.
+El código en PHP sería de la siguiente manera:
 
+<?php
+$archivo = 'contador.dat'; // Nombre del archivo
+$valorInicial = 0; // Valor inicial del contador
 
+// Verificar si el archivo ya existe
+if (!file_exists($archivo)) {
+    // Intentar crear el archivo y establecer los permisos de lectura y escritura
+    if (file_put_contents($archivo, $valorInicial) !== false) {
+        chmod($archivo, 0666); // Establecer permisos de lectura y escritura
+        echo 'El archivo contador.dat ha sido creado con éxito.';
+    } else {
+        echo 'No se pudo crear el archivo contador.dat.';
+    }
+} else {
+    echo 'El archivo contador.dat ya existe.';
+}
+?>
 
+Este código primero verifica si el archivo "contador.dat" ya existe en la carpeta actual. Si no existe, lo crea con el valor inicial y establece los permisos de lectura y escritura usando la función 'chmod'. Si el archivo ya existe, muestra un mensaje indicando que ya existe.
 
-
-
-
-
-
-
-
-
-
+Tenemos que asegurarnos de que el script PHP tenga los permisos necesarios para crear y modificar archivos en la carpeta en la que se encuentra.
