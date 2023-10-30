@@ -1,17 +1,22 @@
 <?php
+if(isset($_COOKIE["noticia"])){
+  header("Location: $tipo.php");
+  exit();
+} else {
   if(isset($_POST["enviar"])){
     $tipo = $_POST["tipo_noti"];
     setcookie("noticia", $tipo, time()+3600*24);
-    include($tipo . ".php");
+    header("Location: $tipo.php");
+    exit();
   }
-  
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ejercicio 4</title>
+  <title>Document</title>
 </head>
 <body>
   <form action="ejercicio4.php" method="POST">
