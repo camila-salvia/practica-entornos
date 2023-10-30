@@ -4,8 +4,8 @@
     setcookie("noticia", $tipo, time()+3600*24);
     include($tipo . ".php");
   }
+  
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,8 +15,11 @@
 </head>
 <body>
   <form action="ejercicio4.php" method="POST">
+    <label>Politica</label>
     <input type="radio" name="tipo_noti" value="politica">
+    <label>Economica</label>
     <input type="radio" name="tipo_noti" value="economica">
+    <label>Deportiva</label>
     <input type="radio" name="tipo_noti" value="deportiva">
     <input type="submit" name="enviar">
   </form>

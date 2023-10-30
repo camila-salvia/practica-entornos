@@ -6,7 +6,7 @@
   <title>Document</title>
 </head>
 <body>
-  <h1>SECCION POLITICA</h1>
+  <h1>SECCION DEPORTIVA</h1>
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptatum praesentium, minus unde repellendus modi quod sapiente quaerat fuga corporis eos accusamus quas. Explicabo corporis quo expedita optio facilis consectetur?</p>
   <?php
     include("eliminar.php");
