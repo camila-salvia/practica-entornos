@@ -1,7 +1,9 @@
 <?php
   session_start();
-  $array=["nombre" => "Camila", "edad" => 21, "ciudad" => "Rosario"];
-  $_SESSION["datos"]=$array;
+  if(isset($_POST["enviar"])){
+  $_SESSION["nombre"]=$_POST["nombre"];
+  $_SESSION["clave"]=$_POST["clave"];
+  }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -11,14 +13,6 @@
   <title>Document</title>
 </head>
 <body>
-  <h1>Nombre</h1>
-  <p>
-    <?php 
-      //echo "<pre>";
-      //var_dump($_SESSION["datos"]);
-      //echo "</pre>";
-      echo $_SESSION["datos"]["edad"];
-    ?>
-  </p>
+  <h3>Nombre</h3>
 </body>
 </html>
