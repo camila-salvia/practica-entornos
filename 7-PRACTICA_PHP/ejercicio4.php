@@ -18,7 +18,7 @@ exit();
   <title>Document</title>
 </head>
 <body>
-  <form action="ejercico4.php" method="POST">
+  <form action="ejercicio4.php" method="POST">
     <label>Politica</label>
     <input type="radio" name="tipo_noti" value="politica">
     <label>Economica</label>
