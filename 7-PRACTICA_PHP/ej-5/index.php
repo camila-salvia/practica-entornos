@@ -11,6 +11,8 @@
     <input type="text" name="nombre">
     <label>Clave</label>
     <input type="text" name="clave">
+    <input type="submit" name="enviar">
   </form>
+  <a href="rescatar-valores.php">Ver</a>
 </body>
 </html>
