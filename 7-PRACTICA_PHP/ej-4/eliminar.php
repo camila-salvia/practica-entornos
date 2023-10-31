@@ -1,7 +1,7 @@
 <?php
 if(isset($_POST["eliminar"])){
   setcookie("noticia", "", time()-3600*24); 
-  header("Location: ejercicio4.php"); 
+  header("Location: index.php"); 
 }
 ?>
 

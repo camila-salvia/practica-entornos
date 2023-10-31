@@ -1,4 +1,5 @@
 <?php
+$tipo = '';
 if(isset($_COOKIE["noticia"])){
   $tipo=$_COOKIE["noticia"];
 } else {
@@ -7,8 +8,10 @@ if(isset($_COOKIE["noticia"])){
     setcookie("noticia", $tipo, time()+3600*24);
   }
 }
-header("Location: $tipo.php");
-exit();
+if(!empty($tipo)) {
+  header("Location: $tipo.php");
+  exit();
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -18,7 +21,7 @@ exit();
   <title>Document</title>
 </head>
 <body>
-  <form action="ejercicio4.php" method="POST">
+  <form action="" method="POST">
     <label>Politica</label>
     <input type="radio" name="tipo_noti" value="politica">
     <label>Economica</label>
