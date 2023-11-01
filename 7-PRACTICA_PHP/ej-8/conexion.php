@@ -1,4 +1,4 @@
 <?php
-$connection = mysqli_connect("localhost", "root");
-mysqli_select_db("prueba",$connection);
+$connection = mysqli_connect("localhost", "root", DB_PASS, "prueba");
+mysqli_select_db($connection, "prueba");
 ?>
